@@ -48,7 +48,6 @@
     <orderEntry type="library" exported="" name="Gradle: javax.activation:activation:1.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.sun.mail:javax.mail:1.5.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.apache.commons:commons-lang3:3.3.2" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: junit:junit:4.11" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.springframework.boot:spring-boot:1.2.5.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.2.5.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.springframework.boot:spring-boot-starter-logging:1.2.5.RELEASE" level="project" />
@@ -90,6 +89,7 @@
     <orderEntry type="library" exported="" name="Gradle: org.thymeleaf:thymeleaf:2.1.4.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="Gradle: ognl:ognl:3.0.8" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.unbescape:unbescape:1.1.0.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: junit:junit:4.11" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: org.hsqldb:hsqldb:2.3.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.boot:spring-boot-starter-test:1.2.5.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.jayway.jsonpath:json-path:2.0.0" level="project" />
