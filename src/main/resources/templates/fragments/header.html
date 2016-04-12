@@ -24,8 +24,8 @@
                     <li sec:authorize="hasRole('ROLE_ADMIN')"><a th:href="@{/words}" href="/words"> Words </a></li>
                     <li sec:authorize="hasRole('ROLE_ADMIN')"><a th:href="@{/wordSets}" href="/wordSets"> Word Sets </a></li>
 
-                    <li sec:authorize="hasRole('ROLE_USER')"><a th:href="@{/words}" href="/words"> Words </a></li>
-                    <li sec:authorize="hasRole('ROLE_USER')"><a th:href="@{/wordSets}" href="/wordSets"> Word Sets </a></li>
+                    <li sec:authorize="hasRole('ROLE_USER')"><a th:href="@{/words}" href="/words"> Слова </a></li>
+                    <li sec:authorize="hasRole('ROLE_USER')"><a th:href="@{/wordSets}" href="/wordSets"> Наборы </a></li>
 
 
                     <li sec:authorize="isAnonymous()"><a th:href="@{/login}" href="login"> Login </a></li>
