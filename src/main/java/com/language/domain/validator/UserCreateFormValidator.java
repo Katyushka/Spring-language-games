@@ -42,7 +42,7 @@ public class UserCreateFormValidator implements Validator {
     }
 
     private void validateName(Errors errors, UserCreateForm form) {
-        if (userService.getUserByName(form.getName()) != null) {
+        if (userService.getUserByLogin(form.getLogin()) != null) {
             errors.reject("email.exists", "User with this name already exists");
         }
     }

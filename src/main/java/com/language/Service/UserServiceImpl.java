@@ -35,9 +35,9 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public User getUserByName(String name) {
+    public User getUserByLogin(String login) {
         LOGGER.debug("Getting user by name");
-        return userRepository.findByName(name);
+        return userRepository.findByLogin(login);
     }
 
     @Override
@@ -54,7 +54,7 @@ public class UserServiceImpl implements UserService {
     public User create(UserCreateForm form) {
         LOGGER.debug("Create new user");
         User user = new User();
-        user.setName(form.getName());
+        user.setLogin(form.getLogin());
         user.setPassword(new BCryptPasswordEncoder().encode(form.getPassword()));
         user.setEmail(form.getEmail());
         user.setRole(Role.ROLE_USER);

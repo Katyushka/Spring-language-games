@@ -25,10 +25,19 @@ public class User {
     private boolean isVerified;
 
     @Column(nullable = false)
-    private String name;
+    private String login;
 
     @Column(nullable = false)
     private String password;
+
+    @Column(nullable = false)
+    private String town;
+
+    @Column(nullable = false)
+    private String name;
+
+    @Column(nullable = false)
+    private String surname;
 
     @Column(nullable = false)
     @Enumerated(EnumType.STRING)
@@ -75,12 +84,12 @@ public class User {
         this.deleted = deleted;
     }
 
-    public String getName() {
-        return name;
+    public String getLogin() {
+        return login;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setLogin(String login) {
+        this.login = login;
     }
 
     public String getPassword() {
@@ -113,5 +122,29 @@ public class User {
 
     public void setVerificationTokens(List<VerificationToken> verificationTokens) {
         this.verificationTokens = verificationTokens;
+    }
+
+    public String getTown() {
+        return town;
+    }
+
+    public void setTown(String town) {
+        this.town = town;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 }

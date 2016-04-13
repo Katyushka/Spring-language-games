@@ -13,7 +13,7 @@ public class UserCreateForm {
     private boolean isVerified = false;
 
     @NotEmpty
-    private String name = "";
+    private String login = "";
 
     @NotEmpty
     private String password = "";
@@ -40,12 +40,12 @@ public class UserCreateForm {
         this.isVerified = isVerified;
     }
 
-    public String getName() {
-        return name;
+    public String getLogin() {
+        return login;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setLogin(String login) {
+        this.login = login;
     }
 
     public String getPassword() {

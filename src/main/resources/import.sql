@@ -1,5 +1,5 @@
-INSERT INTO users (id, email, is_verified, name, password, role, deleted) VALUES (5, 'putin@mail.com', false, 'admin', '$2a$10$kdN43G6b8zic7NDFH/1mWO62RMXFUIQcyHnXYT/L07LQiAoaOVZra', 'ROLE_ADMIN', false);
-INSERT INTO users (id, email, is_verified, name, password, role, deleted) VALUES (6, 'medvedev@mail.com', false, 'user', '$2a$10$OotQJrfFaEERZbNky/oXKeHxTobYRcia9xCiIBpGYp0Zb6V8Uui3e', 'ROLE_USER', false);
+INSERT INTO users (id, email, is_verified, login, password, town, name, surname, role, deleted) VALUES (5, 'putin@mail.com', false, 'admin', '$2a$10$kdN43G6b8zic7NDFH/1mWO62RMXFUIQcyHnXYT/L07LQiAoaOVZra', 'Orenburg', 'Ekaterina', 'Chernova', 'ROLE_ADMIN', false);
+INSERT INTO users (id, email, is_verified, login, password, town, name, surname, role, deleted) VALUES (6, 'medvedev@mail.com', false, 'user', '$2a$10$OotQJrfFaEERZbNky/oXKeHxTobYRcia9xCiIBpGYp0Zb6V8Uui3e', 'Moscow',  'Vasya', 'Petrov', 'ROLE_USER', false);
 
 INSERT INTO verification_token (id, expiry_date, token, token_type, verified, user_id) VALUES (8, '2015-07-17 08:28:45.878000', '78b1e6d775cec5260001af137a79dbd5', 'EMAIL_VERIFICATION', true, 5);
 INSERT INTO verification_token (id, expiry_date, token, token_type, verified, user_id) VALUES (9, '2015-08-15 04:34:46.345000', '0e0530c1430da76495955eb06eb99d95', 'LOST_PASSWORD', true, 5);

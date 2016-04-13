@@ -10,7 +10,7 @@ import java.util.List;
  */
 public interface UserService {
     User getUserById(long id);
-    User getUserByName(String name);
+    User getUserByLogin(String login);
     List<User> getAllUsers();
     User create(UserCreateForm form);
     User save(User user);
