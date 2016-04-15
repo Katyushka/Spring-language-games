@@ -25,7 +25,7 @@
         </div>
         <div id="dialog-confirm" title="Delete?" style="display: none;">
             <p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0; "></span>
-                Delete this language. Are you sure?</p>
+                Вы уверены, что хотите удалить выбранный язык?</p>
         </div>
         <div class="panel panel-primary">
             <div class="panel-heading"><h2>Список языков</h2></div>
@@ -44,8 +44,8 @@
                     </thead>
                     <tbody>
                     <tr th:each="language : ${languages}" th:id="'language-' + ${language.id}">
-                        <td th:text="${language.name}">language name</td>
-                        <td th:text="${language.description}">language description</td>
+                        <td th:text="${language.name}">название языка</td>
+                        <td th:text="${language.description}">описание языка</td>
                         <td><nobr>
                             <button class="btn btn-primary"
                                     onclick=""

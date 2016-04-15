@@ -1,5 +1,5 @@
 function addUser() {
-	$('#userDialog').dialog("option", "title", 'Add User');
+	$('#userDialog').dialog("option", "title", 'Добавить пользователя');
 	$('#userDialog').dialog('open');
 }
 
@@ -55,10 +55,10 @@ $(document).ready(function() {
 		resizable : false,
 		width : 440,
 		buttons : {
-			"Save" : function() {
+			"Сохранить" : function() {
 				$('#userForm').submit();
 			},
-			"Cancel" : function() {
+			"Отменить" : function() {
 				$(this).dialog('close');
 			}
 		},

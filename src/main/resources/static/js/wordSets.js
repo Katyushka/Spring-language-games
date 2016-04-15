@@ -1,5 +1,5 @@
 function addWordSet() {
-    $('#wordSetDialog').dialog("option", "title", 'Add Word Set');
+    $('#wordSetDialog').dialog("option", "title", 'Добавить группу');
     $('#wordSetDialog').dialog('open');
 }
 
@@ -55,10 +55,10 @@ $(document).ready(function() {
         resizable : false,
         width : 440,
         buttons : {
-            "Save" : function() {
+            "Сохранить" : function() {
                 $('#wordSetForm').submit();
             },
-            "Cancel" : function() {
+            "Отменить" : function() {
                 $(this).dialog('close');
             }
         },

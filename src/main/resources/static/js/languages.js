@@ -1,5 +1,5 @@
 function addLanguage() {
-    $('#languageDialog').dialog("option", "title", 'Add Language');
+    $('#languageDialog').dialog("option", "title", 'Добавить язык');
     $('#languageDialog').dialog('open');
 }
 
@@ -55,10 +55,10 @@ $(document).ready(function() {
         resizable : false,
         width : 440,
         buttons : {
-            "Save" : function() {
+            "Сохранить" : function() {
                 $('#languageForm').submit();
             },
-            "Cancel" : function() {
+            "Отменить" : function() {
                 $(this).dialog('close');
             }
         },

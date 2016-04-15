@@ -1,5 +1,5 @@
 function addWord() {
-    $('#wordDialog').dialog("option", "title", 'Add Word');
+    $('#wordDialog').dialog("option", "title", 'Добавить слово');
     $('#wordDialog').dialog('open');
 }
 
@@ -55,10 +55,10 @@ $(document).ready(function() {
         resizable : false,
         width : 440,
         buttons : {
-            "Save" : function() {
+            "Сохранить" : function() {
                 $('#wordForm').submit();
             },
-            "Cancel" : function() {
+            "Отменить" : function() {
                 $(this).dialog('close');
             }
         },

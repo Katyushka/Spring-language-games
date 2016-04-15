@@ -22,7 +22,7 @@
             <div class="panel panel-info">
                 <div class="panel-heading">
                     <div class="panel-title">Registration</div>
-                    <div style="float:right; font-size: 85%; position: relative; top:-10px"><a id="signinlink" href="#" th:href="@{/login}">Login</a></div>
+                    <div style="float:right; font-size: 85%; position: relative; top:-10px"><a id="signinlink" href="#" th:href="@{/login}">Логин</a></div>
                 </div>
                 <div class="panel-body" >
                     <form name="form" id="signupform" th:action="@{/language/create}" action="/language/create" method="POST"
@@ -39,7 +39,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="name" class="col-md-3 control-label">Name</label>
+                                <label for="name" class="col-md-3 control-label">Название</label>
                                 <div class="col-md-9">
                                     <input id="name" type="text" class="form-control" name="name" placeholder="Name"
                                            th:field="*{name}" required="required" />
@@ -47,7 +47,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="description" class="col-md-3 control-label">Description</label>
+                                <label for="description" class="col-md-3 control-label">Описание</label>
                                 <div class="col-md-9">
                                     <input type="description" class="form-control" name="description" placeholder="Description"
                                            th:field="*{description}" id="description" required="required"/>
