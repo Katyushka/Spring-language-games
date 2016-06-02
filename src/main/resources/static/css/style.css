@@ -20,17 +20,19 @@ text-transform: uppercase;
 .navbar-default .navbar-nav>li>a:hover{
 	color: #f74d65;
 }
+/*
 header{
 	background: url(../images/header_bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+*/
 .section_overlay{
 	background: rgba(250,250,250, .5);
 }
 .home_text{
-	padding-top: 210px;
-	padding-bottom: 210px;
+	padding-top: 80px;
+	padding-bottom: 250px;
 }
 .home_text h2{
 	color: #010101;
@@ -166,12 +168,13 @@ padding-top: 110px;
 
 
 /*Fun Facts*/
-.fun_facts{
+/*.fun_facts{
 	background: url(../images/header_bg.jpg);
 	background-attachment: fixed !important;
 	background-repeat: repeat;
 	
-}
+} */
+
 .fun_facts .section_overlay{
 background: rgba(71,71,71,.8);
 padding-bottom: 30px;

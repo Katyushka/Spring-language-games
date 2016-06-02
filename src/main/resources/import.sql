@@ -35,7 +35,7 @@ INSERT INTO words (id, content, language_id) VALUES (27, 'care', 2);
 
 
 INSERT INTO word_sets (id, name, description, primary_language, user_id) VALUES (10, 'animals', 'set of the different animals', 2, 5);
-INSERT INTO word_sets (id, name, description, primary_language, user_id) VALUES (11, 'family members', 'set of the different family members', 2, 5);
+INSERT INTO word_sets (id, name, description, primary_language, user_id) VALUES (11, 'family members', 'set of the different family members', 2, 6);
 INSERT INTO word_sets (id, name, description, primary_language, user_id) VALUES (28, 'furniture', 'set of the furniture', 2, 6);
 INSERT INTO word_sets (id, name, description, primary_language, user_id) VALUES (29, 'emotions', 'set of the different emotions', 2, 6);
 
@@ -48,6 +48,16 @@ INSERT INTO word_to_word (first_word_id, second_word_id) VALUES (20, 22);
 INSERT INTO word_to_word (first_word_id, second_word_id) VALUES (21, 23);
 INSERT INTO word_to_word (first_word_id, second_word_id) VALUES (24, 26);
 INSERT INTO word_to_word (first_word_id, second_word_id) VALUES (25, 27);
+
+INSERT INTO word_to_word (first_word_id, second_word_id) VALUES (16, 12);
+INSERT INTO word_to_word (first_word_id, second_word_id) VALUES (17, 13);
+INSERT INTO word_to_word (first_word_id, second_word_id) VALUES (18, 14);
+INSERT INTO word_to_word (first_word_id, second_word_id) VALUES (19, 15);
+INSERT INTO word_to_word (first_word_id, second_word_id) VALUES (22, 20);
+INSERT INTO word_to_word (first_word_id, second_word_id) VALUES (23, 21);
+INSERT INTO word_to_word (first_word_id, second_word_id) VALUES (26, 24);
+INSERT INTO word_to_word (first_word_id, second_word_id) VALUES (27, 25);
+
 
 
 
